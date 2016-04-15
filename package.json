@@ -1,0 +1,25 @@
+{
+  "name": "infovis",
+  "version": "1.0.0",
+  "description": "Info Vis project using D3",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Williams94/InfoVis.git"
+  },
+  "keywords": [
+    "information",
+    "visualization",
+    "dataset",
+    "D3.js"
+  ],
+  "author": "Ross Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Williams94/InfoVis/issues"
+  },
+  "homepage": "https://github.com/Williams94/InfoVis#readme"
+}
