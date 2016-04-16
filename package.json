@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Williams94/InfoVis/issues"
   },
-  "homepage": "https://github.com/Williams94/InfoVis#readme"
+  "homepage": "https://github.com/Williams94/InfoVis#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }

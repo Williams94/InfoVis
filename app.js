@@ -1,7 +1,12 @@
-var http = require('http');
-http.createServer(function (req, res) {
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('Hello World\n');
-}).listen(8080, function(){
-console.log("Server running on: http://localhost: 8080");
+var express = require('express');
+var app = express();
+var path = require('path');
+var PORT = 8080;
+
+var server  = app.listen(PORT, function(){
+    console.log("Server started on PORT: " + PORT)
+});
+
+app.get('/', function(req, res){
+    res.sendFile(path.join(__dirname, '/', 'index.html'));
 });
