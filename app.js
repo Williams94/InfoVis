@@ -11,6 +11,10 @@ app.get('/', function(req, res){
     res.sendFile(path.join(__dirname, '/', 'index.html'));
 });
 
+app.get('/InfoVis', function(req, res){
+    res.sendFile(path.join(__dirname, '/', 'index.html'));
+});
+
 app.get('/about', function(req, res){
     res.sendFile(path.join(__dirname, '/', 'about.html'));
 });
