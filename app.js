@@ -48,6 +48,18 @@ app.get('/js/leaflet.awesome-markers.js', function(req, res){
     res.sendFile(path.join(__dirname, '/js', '/leaflet.awesome-markers.js'));
 });
 
+app.get('/js/L.D3SvgOverlay.min.js', function(req, res){
+    res.sendFile(path.join(__dirname, '/js', '/L.D3SvgOverlay.min.js'));
+});
+
+app.get('/countries.geo.json', function(req, res){
+    res.sendFile(path.join(__dirname, '/world.geo.json', '/countries.geo.json'));
+});
+
+app.get('/hdi.json', function(req, res){
+    res.sendFile(path.join(__dirname, '/data', '/hdi.json'));
+});
+
 
 /*      Data router     */
 app.get('/data/hdi.csv', function(req, res){
