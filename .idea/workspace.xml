@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90e26576-8219-4f61-8931-d0e35b98b14a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/hdi.csv" afterPath="$PROJECT_DIR$/data/hdi.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/map.js" afterPath="$PROJECT_DIR$/js/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vis.js" afterPath="$PROJECT_DIR$/js/vis.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/world.geo.json" afterPath="$PROJECT_DIR$/world.geo.json" />
     </list>
     <ignored path="InfoVis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,8 +67,8 @@
       <file leaf-file-name="countries.geo.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/world.geo.json/countries.geo.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6259542">
-              <caret line="47357" column="48" selection-start-line="47357" selection-start-column="48" selection-end-line="47357" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.53816795">
+              <caret line="47354" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="47517" selection-end-column="0" />
               <folding>
                 <element signature="e#558#5959#0" expanded="false" />
                 <element signature="e#6483#13068#0" expanded="false" />
@@ -221,20 +216,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="InfoVis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InfoVis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InfoVis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="world.geo.json" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -643,8 +624,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/world.geo.json/countries.geo.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6259542">
-          <caret line="47357" column="48" selection-start-line="47357" selection-start-column="48" selection-end-line="47357" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.53816795">
+          <caret line="47354" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="47517" selection-end-column="0" />
           <folding>
             <element signature="e#558#5959#0" expanded="false" />
             <element signature="e#6483#13068#0" expanded="false" />
