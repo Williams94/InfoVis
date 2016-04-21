@@ -80,4 +80,5 @@ var initVis = function () {
      });
 
      */
+	$('#map').css({'margin-left':'-200px','margin-top':'10px'});
 };
