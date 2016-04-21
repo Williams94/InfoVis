@@ -60,6 +60,10 @@ app.get('/hdi.json', function(req, res){
     res.sendFile(path.join(__dirname, '/data', '/hdi.json'));
 });
 
+app.get('/colorbrewer.js', function(req, res){
+    res.sendFile(path.join(__dirname, '/js', '/colorbrewer.js'));
+});
+
 
 /*      Data router     */
 app.get('/data/hdi.csv', function(req, res){

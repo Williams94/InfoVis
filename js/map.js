@@ -8,7 +8,11 @@ var tiles;
 var getMap = function () {
 
     /*      Code used from http://bl.ocks.org/xEviL/0c4f628645c6c21c8b3a        */
-    mymap = L.map("map", {center: [46.81509864599243, 8.3221435546875], zoom: 2});
+    mymap = L.map("map", {
+        center: [46.81509864599243, 8.3221435546875],
+        zoom: 2
+    });
+
     tiles = L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpeg', {
         attribution: 'Tiles Courtesy of <a href="http://www.mapquest.com/">MapQuest</a> '
         +'&mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
@@ -16,6 +20,8 @@ var getMap = function () {
     });
 
     /*      Until here      */
+
+
 
     tiles.addTo(mymap);
 
@@ -31,6 +37,7 @@ var getMap = function () {
 
     initVis();
 
+    initLegend();
 
 
 };
