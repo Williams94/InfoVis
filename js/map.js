@@ -9,7 +9,7 @@ var getMap = function () {
 
     /*      Code used from http://bl.ocks.org/xEviL/0c4f628645c6c21c8b3a        */
     mymap = L.map("map", {
-        center: [46.81509864599243, 8.3221435546875],
+        center: [13.787197,17.659435],
         zoom: 2
     });
 
