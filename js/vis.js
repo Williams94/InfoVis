@@ -64,41 +64,7 @@ var initVis = function () {
     /*                    Until Here                        */
 
 
-    /*d3.csv(dataPath, function (error, data) {
-     if (error != null) {
-     console.log(error);
-     }
-
-     data.forEach(function (d) {
-
-     var marker = L.marker([d.lat, d.lng]).addTo(mymap);
-
-     var popup = L.popup();
-
-     marker.on("mouseover", function (e) {
-     popup.setLatLng(e.latlng)
-     .setContent(d.country)
-     .openOn(mymap);
-     });
-
-     marker.on("mouseout", function (e) {
-     mymap.closePopup();
-     });
-
-     });
-     });*/
-
-
-    /*var greenIcon = L.icon({
-     //iconUrl: '/images/pin.png',
-     iconSize:     [10, 10], // size of the icon
-     iconAnchor:   [5, 10], // point of the icon which will correspond to marker's location
-     //shadowAnchor: [4, 62],  // the same for the shadow
-     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
-     });
-
      */
-	$('#map').css({'margin-left':'-200px','margin-top':'10px'});
 };
 
 var svg;
