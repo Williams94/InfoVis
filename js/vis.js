@@ -63,8 +63,6 @@ var initVis = function () {
     });
     /*                    Until Here                        */
 
-
-     */
 };
 
 var svg;
