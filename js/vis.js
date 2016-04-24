@@ -64,7 +64,7 @@ var initVis = function () {
     /*                    Until Here                        */
 
     document.getElementById('map').style.marginTop = "100px";
-    document.getElementById('map').style.marginLeft = "-400px";
+    document.getElementById('map').style.marginLeft = "-200px";
 
 
 };
