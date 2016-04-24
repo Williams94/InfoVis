@@ -53,7 +53,7 @@ app.get('/js/L.D3SvgOverlay.min.js', function(req, res){
 });
 
 app.get('/countries.geo.json', function(req, res){
-    res.sendFile(path.join(__dirname, '/world.geo.json', '/countries.geo.json'));
+    res.sendFile(path.join(__dirname, '/', 'countries.geo.json'));
 });
 
 app.get('/hdi.json', function(req, res){
